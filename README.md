@@ -21,3 +21,5 @@ For example you might find there a default netplan configuration file called **0
                 addresses: [8.8.8.8,8.8.4.4]
                 optional: true
         version: 2
+
+**sudo netplan apply**
