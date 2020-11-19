@@ -23,3 +23,6 @@ For example you might find there a default netplan configuration file called **0
         version: 2
 
 **sudo netplan apply**
+
+### quit screen
+    screen -XS <name/id> quit
