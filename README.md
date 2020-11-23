@@ -26,3 +26,6 @@ For example you might find there a default netplan configuration file called **0
 
 ### quit screen
     screen -XS <name/id> quit
+    
+### Find folder name
+    sudo find / -type d -name "<folder name>"
