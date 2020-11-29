@@ -18,7 +18,7 @@ For example you might find there a default netplan configuration file called **0
                 addresses: [192.168.1.24/24]
                 gateway4: 192.168.1.1
                 nameservers:
-                addresses: [8.8.8.8,8.8.4.4]
+                    addresses: [8.8.8.8,8.8.4.4]
                 optional: true
         version: 2
 
