@@ -29,3 +29,6 @@ For example you might find there a default netplan configuration file called **0
     
 ### Find folder name
     sudo find / -type d -name "<folder name>"
+    
+### Join multiple video files
+    mkvmerge -o outfile.mkv infile_01.mp4 \+ infile_02.mp4 \+ infile_03.mp4
